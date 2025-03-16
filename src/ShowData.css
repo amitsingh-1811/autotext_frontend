@@ -1,0 +1,63 @@
+/* ShowData.css - Styles for the ShowData component */
+div {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #1e40af;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.75rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  p {
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  p::before {
+    font-weight: 600;
+    color: #1e40af;
+  }
+  
+  p:nth-of-type(1)::before {
+    content: "Temperature:";
+  }
+  
+  p:nth-of-type(2)::before {
+    content: "Weather:";
+  }
+  
+  p:nth-of-type(3)::before {
+    content: "Humidity:";
+  }
+  
+  p:nth-of-type(4)::before {
+    content: "Wind Speed:";
+  }
+  
+  p:nth-of-type(5)::before {
+    content: "Location:";
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 80px;
+  }

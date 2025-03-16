@@ -1,3 +1,5 @@
+import './ShowData.css';
+
 function ShowData({data}){
     const {
         coord: { lon, lat } = {},

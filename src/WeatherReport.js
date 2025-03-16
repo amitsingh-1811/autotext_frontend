@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react';
+import { useState } from 'react';
 import './WeatherReport.css';
 import ShowData from './ShowData';
 function WeatherReport({cityName}){

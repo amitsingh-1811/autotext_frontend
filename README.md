@@ -35,10 +35,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Follow these steps to set up the project on your local machine:
 
-1. **Create the React App (if starting from scratch):**
+1. **Clone the React App (if starting from scratch):**
    ```bash
-   npx create-react-app autotext_frontend
-   cd autotext_frontend
+   git clone https://github.com/amitsingh-1811/autotext_frontend.git
+
 2. **Install dependencies**
    ```bash
    npm install
@@ -55,21 +55,21 @@ Follow these steps to set up the project on your local machine:
   The project organised as follows:
   ```bash
   autotext_frontend/
-  ├── node_modules/
-  ├── public/
-  │   └── index.html
-  ├── src/
-  │   ├── components/
-  │   │   ├── App.js           // Main component handling user input and rendering WeatherReport component.
-  │   │   ├── WeatherReport.js // Component that fetches weather data, manages loading and error states.
-  │   │   └── ShowData.js      // Component that displays the fetched weather details.
-  │   ├── index.js             // Application entry point.
-  │   ├── App.css              // Styles for the main application.
-  │   ├── WeatherReport.css    // Styles for the WeatherReport component.
-  │   └── ShowData.css         // Styles for the ShowData component.
-  ├── .env                     // Contains environment variables (e.g., API key).
-  ├── package.json             // Project configuration and scripts.
-  └── README.md                // This documentation file.
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js              // Main component handling user input and rendering WeatherReport component.
+│   ├── WeatherReport.js    // Component that fetches weather data, manages loading and error states.
+│   ├── ShowData.js         // Component that displays the fetched weather details.
+│   ├── index.js            // Application entry point.
+│   ├── App.css             // Styles for the main application.
+│   ├── WeatherReport.css   // Styles for the WeatherReport component.
+│   └── ShowData.css        // Styles for the ShowData component.
+├── .env                    // Contains environment variables (e.g., API key).
+├── package.json            // Project configuration and scripts.
+└── README.md               // This documentation file.
+
 ```
 ## Environment Variables
   This project uses an environment variable to securely store the OpenWeatherMap API key. Create a .env file in the root directory with the following content:
